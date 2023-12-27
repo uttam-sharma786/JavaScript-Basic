@@ -1,7 +1,7 @@
 ## Overview 
 1. Var
-2. const 
-3. let
+2. let 
+3. const 
 
 # Variable Declaration
 var myName;
