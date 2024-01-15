@@ -22,7 +22,7 @@ local();
 function scubscibe() {
 
     var name1 = "Code with Sharma";
-    // inner scope
+    // inner scope2
     function displayName() {
         // inner scope
         alert(name1);
@@ -30,3 +30,15 @@ function scubscibe() {
     displayName();
 }
 scubscibe()
+
+// What is a closure
+
+function makeFunc() {
+    var name = "Mozilla";
+    function displayName() {
+        console.log(name);
+    }
+    return displayName;
+}
+var myFunc = makeFunc();
+myFunc();
