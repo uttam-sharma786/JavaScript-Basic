@@ -12,3 +12,6 @@ let add = function (firstNum,secondNum) {
 
 }
 console.log(add(1,3));
+
+
+
