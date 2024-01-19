@@ -1,5 +1,10 @@
 // Random String Generator in JavaScript
+// Password Generator, Token generation, Data Simulation, Usernames and display Names, File or Folder Naming, Session identifiers, Coupon Codes, Captcha,
+// Database Records, Unique URL, 
 
+// Define a character set containing all possible characters for the random string
+// Generate random indices within range of the character set
+// Concatenate the selected characters to form the random string 
 
 function generateRandomString(length) {
     const charset = "AQWERTYUIOPSDFGHJKLMNBVCXZ#$@%";
