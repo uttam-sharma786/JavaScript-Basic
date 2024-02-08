@@ -42,3 +42,8 @@ The second expression (expression_if_false) evaluates when the condition results
 AQI > 300 ? "Air Quality is BAD" : AQI >200 ? "Air Quality is Normal" : AQI>100 ? "Air QUality is good": "Air Quality is Excellent";
 
 ### It also used for checking null values in javascript
+1. null;
+2. NaN;
+3. 0;
+4. empty string("" or " or ``);
+5. undefined

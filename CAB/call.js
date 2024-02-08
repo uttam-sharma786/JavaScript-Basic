@@ -54,6 +54,7 @@ The object to be used as the this object.
 Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.
 */
 printFullName.apply(name2,["Mumbai","Maharashtra"]) 
+
 // in apply method as a second argument in a array
 
 
@@ -65,3 +66,5 @@ printFullName.apply(name2,["Mumbai","Maharashtra"])
 let printMyName = printFullName.bind(name2,"Mumbai","Maharashtra")
 console.log(printMyName);
 printMyName();
+
+// bind method does not invoked method give a copy of same method which call be invoke alter

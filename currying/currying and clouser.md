@@ -1,0 +1,1 @@
+# we are using curring method with bind and clouser method
