@@ -1,1 +1,18 @@
+call () Method: 
+1. It used to invoke the function with different this object. in Javascirpt , this refers to an object. 
+2. In the global scope, this refer to the global object window.
+3. Inside fuction also this refer to the global object window.
 
+syntax: 
+object.objectMethod.call(objectInstance, arguments)
+
+ex:
+const obj = {
+  fname: "Uttam",
+  lname: "sharma",
+printfullName: function() {
+console.log(this.fname+" " + this.lname);
+}
+}
+// ivoke the function
+obj.printfullName();
